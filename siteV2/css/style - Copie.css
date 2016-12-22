@@ -1,0 +1,341 @@
+
+header{
+    left:0%;
+    top: 0%;
+    right:0%;
+	background-image: linear-gradient(rgb(0, 128, 0),rgb(0, 204, 0));
+	background-image: -ms-linear-gradient(RGB(11,15,25),RGB(40,63,111));
+}
+
+header>h3{
+    color:white;
+    font-style: italic;
+    text-align:right;
+    padding-right: 5%;
+    margin-top:-2%;
+    padding-bottom: 1%
+}
+
+header>h2{
+    color:white;
+    text-align:center;
+    font-size:90%;
+    margin-top: -1.5%
+}
+
+header>h1{
+	color:white;
+    margin-left: auto;
+    margin-right: auto;
+	text-align:center;
+}
+#logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*FIN du header*/
+
+
+
+#formmdp{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table{
+    margin-left: 35%;
+}
+td{
+	background-color:white;
+	text-align:center;
+	border:1px  black;
+    padding: 2% 2% 2% 2%;
+}
+#connexion{
+	margin-left:43%;
+	margin-right:3%;
+	border:1px  black;
+	background-color:RGB(255,233,0);
+	border-radius:3%;
+}
+
+
+h1{
+    display: block;
+    text-align: center;
+	
+}
+h4{
+    margin-left: 30%;
+}
+
+ul{
+    margin-left:20%;
+    list-style-type: none;
+}
+
+.rdv{
+     background-color: darkgrey;
+    display: block;
+    padding: 2% 2%;
+    padding: 2% 2% 2% 2%;
+    overflow: scroll;
+	width:500px;
+	height:400px;
+}
+
+
+.perso{
+    margin-left:-30%;
+}
+.pasperso{
+    margin-left:45%;
+}
+h4.pasperso{
+    margin-bottom: -3%;
+    padding-left:25%;
+}
+
+
+div.perso div.adresse{
+    margin-left: 60%;
+}
+
+/*defini le tableau de l'index avec les identifiants*/
+table.selection{
+    margin-left: 0%;   
+}
+
+
+/*reglage de la couleur pour les rdv avec 1 seul tech sur le semainier*/
+.rdvPeuSur{
+    background-color:rgb(230, 57, 0);
+    padding-right:5px;
+	width:250px;
+	height:25px;
+	padding: 0% 0% 0% 0%;
+	padding: 0% 5px 0% 5px;
+}
+.rdvPeuSur :hover{
+opacity:0.8;
+-moz-transition: opacity 0.7s;
+-webkit-transition: opacity 0.7s;
+-o-transition: opacity 0.7s;
+}
+.rdvSur :hover{
+opacity:0.8;
+-moz-transition: opacity 0.7s;
+-webkit-transition: opacity 0.7s;
+-o-transition: opacity 0.7s;
+}
+/*reglage de la couleur pour les rdv avec plusieurs tech sur le semainier*/
+.rdvSur{
+    background-color:rgb(0, 179, 0);
+    padding-right:5px;
+	width:350px;
+	height:25px;
+	margin: 0% 0% 0% 0%;
+	padding: 0% 5px 0% 5px;
+}
+/*reglage de la couleur pour les indisponibilites sur le semainier*/
+.rdvNope{
+    background-color:rgb(153, 0, 0);
+    padding-right:5px;
+	width:250px;
+	height:25px;
+	margin: 0% 0% 0% 0%;
+	padding: 0% 5px 0% 5px;
+}
+/*reglage de la couleur pour le weekend sur le semainier*/
+.week{
+    background-color: gainsboro;
+    padding-right:5px;
+	width:250px;
+	height:25px;
+	
+}
+/*reglage de la taille du bouton radio*/
+input[type=radio] {
+    transform: scale(1.5, 1.5);
+    margin: 1em 1em 1em 0;
+}
+.plann{
+    padding-right:5px;
+	margin-left:auto;
+	margin-right:auto;
+	width:350px;
+	height:25px;
+}
+.dateHeure{
+	background-color:rgb(152,152,152);
+	padding: 0% 0% 0% 0%;
+}
+
+
+/*
+* Réglage des éléments de navigation
+* 
+*/
+
+nav a{
+    display: block;
+    background-color: RGB(11,15,25);
+    color: white;
+    padding: 10% 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    border-radius: 20%;
+    text-align: center;
+}
+nav a:hover{
+    background-color: rgb(0, 20, 51);
+    box-shadow: -1px 2px 5px 1px RGB(11,15,25); 
+    
+}
+
+nav{
+    position: absolute;
+    background-color: RGB(40,63,111);
+    display: block;
+    padding: 2% 2%;
+    margin-top: -2%;
+    height:70%;
+    overflow: auto;
+}
+#planning{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+body {
+color:black;
+background-color:white;
+background-image:url(images/image_de_fond.png);
+}
+
+/*FIN des navigations*/
+
+
+
+
+/*
+* Media queries pour les affichages 
+* sur ecran de petite taille
+*/
+
+@media screen and (max-width: 1260px) {
+	
+   /*regalge Certifications*/ 
+    ul{
+       margin-left: 0%;     
+    }
+	li{
+		font-size:120%;
+	}
+	td{
+		font-size:140%;
+	}
+   body>h1{
+        
+        margin-top: 25%;
+    }
+    body>h4{
+        margin-left: 0%;
+		margin-top:7%;
+    }
+    
+    /*menu de navigation qui va en haut de la page*/
+    nav {
+        display: block;
+        border: 1px  grey;
+        text-align: center;
+        height:auto;
+        background-color: RGB(40,63,111); 
+        margin-top: -3%;
+        padding-left: 0%;
+        padding-right: 1%;
+        width: 97%;
+        overflow: auto;
+		position: absolute;
+    }
+
+    nav a{
+	
+        background-color: RGB(40,63,111);
+        color:yellow;
+        padding: 0%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1%;
+		font-size:125%;
+        
+    }
+    header>h3{
+        margin-top: 2%;
+    }
+	
+	
+	.perso{
+		margin-left:0%;
+	}
+	.pasperso{
+		text-align:right;
+	}
+	.adresse{
+		text-align:right;
+	
+	}
+	#connexion{
+		margin-left:auto;
+		margin-right:auto;
+		font-size:120%;
+	}
+	#title{
+		margin-top: 0%;
+	}
+	input{
+		font-size:100%;
+	}
+	select{
+		font-size:100%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+   /*regalge Certifications*/ 
+    
+   body>h1{
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+	#title{
+		margin-top: 0%;
+	}
+    
+}
+@media screen and (max-width: 780px) {
+   
+   body>h1{
+        margin-left: 0%;
+        margin-top: 40%;
+    }
+	#title{
+		margin-top: 0%;
+	}
+}
+@media screen and (max-width: 300px) {
+   /*regalge Certifications*/ 
+    
+   body>h1{
+        margin-left: 0%;
+        margin-top: 55%;
+    }
+	#title{
+		margin-top: 0%;
+	}
+    
+}
