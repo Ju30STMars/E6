@@ -1,0 +1,96 @@
+header{
+
+	background-image: url("../image/vergers2.jpg");
+	background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header>h3{
+    color:white;
+    font-style: italic;
+    text-align:right;
+    padding-right: 5%;
+    margin-top:-2%;
+    padding-bottom: 1%
+}
+
+header>h2{
+    color:white;
+    text-align:center;
+    font-size:90%;
+    margin-top: -1.5%
+}
+
+header>h1{
+	color:black;
+    margin-left: auto;
+    margin-right: auto;
+	text-align:center;
+}
+#logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h1{
+	text-align: center;
+    border: 1px  yellow;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+nav {
+  border: 1px solid grey;
+  text-align: center;
+  padding-top: 3px;
+  height: 3%;
+  background-color: RGB(57,14,6) ;
+  border-radius: 15px;
+}
+
+nav>a{
+  display:inline-block;
+  margin-right: 3%;
+  margin-left: 3%;
+  font-size:110%;
+  color:white;
+}
+
+body{
+  background-image: url("../image/noix.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+td{
+	background-color:rgba(255,255,255,0.8);
+	text-align:center;
+	border:1px  black;
+    padding: 1% 1% 1% 1%;
+    word-wrap: break-word;
+}
+
+
+#connexion{
+	margin-left:43%;
+	margin-right:3%;
+	border:1px  black;
+	background-color:RGB(255,233,0);
+	border-radius:3%;
+}
+
+ul{
+    text-align: center;
+    border: 1px  yellow;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: rgba(255,255,255,0.5);
+}
+
