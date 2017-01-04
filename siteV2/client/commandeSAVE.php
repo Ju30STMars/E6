@@ -7,7 +7,7 @@
 	}
 	include '../include/connexionbdd.php';
 	
-	/*FONCTION qui permet d'executer toutes les requetes SELECT sans préparation*/
+	/*FONCTION qui permet d'executer toutes les requetes SELECT sans prÃ©paration*/
 	function InsertConditionner($link,$q,$a,$b){
 		$sqlCon="INSERT INTO conditionner VALUES (".$q.",".$a.",".$b.")";
 		$prepareCon=mysqli_prepare($link,$sqlCon);	
@@ -27,7 +27,7 @@
 	$qFil=$_POST['qFilet'];
 	$qCar=$_POST['qCarton'];
 	
-	$sqlCommande="INSERT INTO commande VALUES (DEFAULT,NOW(),'".$listeInfosCient[0]['IdClient']."',".$_GET['lot'].")";
+	$sqlCommande="INSERT INTO commande VALUES (DEFAULT,'0000-00-00','".$listeInfosCient[0]['IdClient']."',".$_GET['lot'].")";
 
 	$prepareCommande=mysqli_prepare($link,$sqlCommande);
 	//mysqli_stmt_bind_param($prepareCommande,'s',$_GET['lot']);
