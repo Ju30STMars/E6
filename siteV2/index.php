@@ -35,7 +35,7 @@
 		<!-- Premier formulaire-->
 		<tr>
 			<td>
-				<!-- Formulaire de connexion qui envoie a la page du producteur-->
+				<!-- Formulaire de connexion qui ednvoie a la page du producteur-->
 				<form method="post" action="./php/connexion.php">
 					<p>Connexion &agrave; votre compte producteur</p>
 					<p>Code utilisateur :</p>
